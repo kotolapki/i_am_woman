@@ -1,0 +1,16 @@
+@import 'common/reset.scss';
+@import 'common/normalize.scss';
+@import 'common/fonts.scss';
+@import 'common/variables.scss';
+@import 'common/common.scss';
+@import 'common/mixins.scss';
+//blocks
+@import 'blocks/page-header.scss';
+@import 'blocks/navigation.scss';
+@import 'blocks/catalog.scss';
+@import 'blocks/new-collection.scss';
+@import 'blocks/new-arrival.scss';
+@import 'blocks/about-brand.scss';
+@import 'blocks/blog.scss';
+@import 'blocks/subscription.scss';
+@import 'blocks/page-footer.scss'

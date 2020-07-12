@@ -1,0 +1,43 @@
+{
+  "name": "mishka",
+  "version": "1.0.0",
+  "description": "handmade things selling site 'Mishka'",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "autoprefixer": "^9.8.4",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-webp": "^4.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "start": "gulp start"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "IE 11",
+    "Firefox ESR"
+  ],
+  "engines": {
+    "node": "8.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kotik-tortik/mishka.git"
+  },
+  "author": "kotik-tortik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kotik-tortik/mishka/issues"
+  },
+  "homepage": "https://github.com/kotik-tortik/mishka#readme"
+}

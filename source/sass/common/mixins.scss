@@ -1,0 +1,9 @@
+@mixin interactive {
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
+}

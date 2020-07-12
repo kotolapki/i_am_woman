@@ -1,0 +1,152 @@
+.subscription {
+  margin: 144px auto 90px;
+  padding: 24px 18px 24px 17px;
+  width: 320px;
+  box-sizing: border-box;
+  background: url(/img/content/mobile/mailing-bg.jpg) no-repeat;
+}
+
+.subscription__wrapper {
+  padding-top: 66px;
+  padding-bottom: 77px;
+  background-color: $grey-transparent;
+}
+
+.subscription__header {
+  margin: 0px 51px;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: $red5;
+  text-align: center;
+}
+
+.subscription__form {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.subscription__form-input {
+  margin: 0 auto;
+  width: 181px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid $black;
+  background-color: transparent;
+  outline: none;
+  @include interactive;
+
+  &::placeholder {
+    color: $black;
+    text-align: center;
+  }
+}
+
+.subscription__form-submit-btn {
+  margin: 41px auto 0;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  width: 157px;
+  color: $white;
+  font-size: 16px;
+  border-radius: 3px;
+  border: none;
+  background-color: $red5;
+  outline: none;
+  cursor: pointer;
+  @include interactive;
+}
+
+.subscription__permission-text {
+  margin-top: 8px;
+  color: $black3;
+  font-family: Open Sans, sans-serif;
+  font-size: 10px;
+  line-height: 1.2;
+  word-spacing: 2px;
+  text-align: center;
+}
+
+@media (min-width: 724px) {
+  .subscription {
+    margin: 107px auto 142px;
+    padding: 51px 84px 50px;
+    width: 724px;
+    background: url(/img/content/tablet/mailing-bg.jpg) no-repeat;
+  }
+
+  .subscription__wrapper {
+    padding-top: 63px;
+    padding-bottom: 68px;
+    border-radius: 3px;
+  }
+
+  .subscription__tablet-hidden {
+    display: none;
+  }
+
+  .subscription__header {
+    font-size: 24px;
+  }
+
+  .subscription__form {
+    margin-top: 31px;
+  }
+
+  .subscription__form-submit-btn {
+    margin: 31px auto 0;
+  }
+
+  .subscription__permission-text {
+    margin-top: 7px;
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .subscription {
+    margin: 114px auto 160px;
+    padding: 42px 142px 62px 162px;
+    width: 1180px;
+    background: url(/img/content/desktop/mailing-bg.jpg) no-repeat;
+  }
+
+  .subscription__wrapper {
+    padding-top: 69px;
+    padding-bottom: 83px;
+  }
+
+  .subscription__header {
+    font-size: 36px;
+  }
+
+  .subscription__form {
+    margin-top: 35px;
+  }
+
+  .subscription__form-input {
+    margin: 0 0 0 309px;
+    padding-bottom: 2px;
+    width: 271px;
+    font-size: 16px;
+    border-bottom: 2px solid $black;
+
+    &::placeholder {
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+
+  .subscription__form-submit-btn {
+    margin: 24px 0 0 364px;
+    padding-top: 6px;
+    width: 167px;
+    font-size: 18px;
+  }
+
+  .subscription__permission-text {
+    margin-top: 12px;
+    font-size: 12px;
+  }
+}

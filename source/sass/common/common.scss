@@ -1,0 +1,39 @@
+body {
+  min-width: 320px;
+  font-family: Cormorant, serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $black;
+  background-color: $white;
+  position: relative;
+}
+
+main {
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}

@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Cormorant';
+  src: 
+    local('Cormorant Light'),
+    url('/fonts/Cormorant-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: 
+    local('Cormorant Regular'),
+    url('/fonts/Cormorant-Light.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: 
+    local('Cormorant Medium'),
+    url('/fonts/Cormorant-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: 
+    local('Cormorant SemiBold'),
+    url('/fonts/Cormorant-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: 
+    local('Cormorant Bold'),
+    url('/fonts/Cormorant-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: 
+    local('Open Sans Regular'),
+    url('/fonts/opensans.woff') format('woff'),
+    url('/fonts/opensans.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
