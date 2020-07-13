@@ -7,6 +7,7 @@
 }
 
 .blog__header {
+  margin-bottom: 4px;
   font-size: 24px;
   font-weight: 600;
   color: $red5;
@@ -14,20 +15,21 @@
 }
 
 .blog__list-wrapper {
+  margin-bottom: 29px;
   width: 244px;
   overflow: hidden;
 }
 
 .blog__list {
-  margin-top: 4px;
-  width: max-content;
+  width: 976px;
   display: flex;
   transition: margin-left 0.3s;
 }
 
 .blog__item {
+  padding-top: 4px;
   width: 244px;
-  text-align: left;
+  text-align: center;
   border-radius: 5px;
 
   &:hover,
@@ -38,6 +40,8 @@
 }
 
 .blog__hashtag {
+  margin-bottom: 11px;
+  display: block;
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -46,14 +50,13 @@
 }
 
 .blog__picture {
-  margin-top: 8px;
+  margin-bottom: 3px;
   display: block;
 }
 
 .blog__link {
   margin-top: 3px;
   padding-left: 6px;
-  display: block;
   font-size: 18px;
   font-weight: 500;
   text-align: center;
@@ -71,7 +74,7 @@
 .blog__slider-information {
   margin-left: 20px;
   margin-right: 18px;
-  margin-top: 30px;
+  margin-bottom: 35px;
   border-bottom: 1px solid $black;
 }
 
@@ -104,7 +107,6 @@
 }
 
 .blog__all-items-link {
-  margin-top: 35px;
   display: inline-block;
   font-weight: 500;
   color: $red;
@@ -121,18 +123,20 @@
   }
 
   .blog__header {
+    margin-bottom: 40px;
     font-size: 48px;
     line-height: normal;
     transform: translateX(-6px);
   }
 
   .blog__list-wrapper {
-    margin-top: 40px;
+    margin-bottom: 63px;
     width: 710px;
   }
 
   .blog__list {
     margin: 0;
+    width: 1440px;
   }
 
   .blog__item {
@@ -144,6 +148,7 @@
   }
 
   .blog__hashtag {
+    margin-bottom: 10px;
     font-size: 16px;
   }
 
@@ -166,10 +171,6 @@
   .blog__slider-number {
     padding-left: 12px;
   }
-
-  .blog__all-items-link {
-    margin-top: 63px;
-  }
 }
 
 @media (min-width: 1440px) {
@@ -182,16 +183,19 @@
   }
 
   .blog__header {
+    margin-bottom: 111px;
     transform: none;
   }
 
   .blog__list-wrapper {
-    margin: 111px auto 0;
+    margin: 0 auto 107px;
     width: auto;
     max-width: 1690px;
+    overflow: hidden;
   }
 
   .blog__list {
+    width: 1690px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -199,14 +203,27 @@
 
   .blog__item {
     width: 400px;
+    text-align: left;
 
     &:not(:last-child) {
       margin-right: 30px;
     }
   }
 
+  .blog__picture {
+    margin-bottom: 12px;
+  }
+
+  .blog__link {
+    font-size: 30px;
+  }
+
+  .blog__text {
+    margin-top: 9px;
+    text-align: left;
+  }
+
   .blog__all-items-link {
-    margin-top: 127px;
     font-size: 18px;
   }
 }

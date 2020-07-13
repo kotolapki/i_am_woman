@@ -1,3 +1,5 @@
+'use strict';
+
 window.onload = () => {
   const sidePanel = document.querySelector('.navigation__side-panel-list');
   const currentItem = sidePanel.querySelector('.navigation__side-panel-item--current');
