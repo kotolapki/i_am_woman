@@ -1,3 +1,5 @@
+'use strict';
+
 if (document.querySelector('.new-collection')) {
   const collectionBlock = document.querySelector('.new-collection');
   const slides = collectionBlock.querySelectorAll('.new-collection__image');

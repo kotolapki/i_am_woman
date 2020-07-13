@@ -1,6 +1,7 @@
 'use strict'
 
 const gulp = require("gulp");
+// const babel = require("gulp-babel");
 const plumber = require("gulp-plumber");
 const sourcemap = require("gulp-sourcemaps");
 const rename = require("gulp-rename");
@@ -12,6 +13,23 @@ const imagemin = require("gulp-imagemin");
 const webp = require("gulp-webp");
 const del = require("del");
 const server = require("browser-sync").create();
+
+// gulp.task("babel", function () {
+//   return gulp.src("source/js/**/*.js")
+//     .pipe(babel({
+//       presets: [
+//         ['@babel/preset-env',
+//           {
+//             "targets": {
+//               "chrome": "58",
+//               "ie": "11"
+//             }
+//           }
+//         ]
+//       ]
+//     }))
+//     .pipe(gulp.dest('build/js'));
+// });
 
 gulp.task("css", function () {
   return gulp.src("source/sass/style.scss")
@@ -25,7 +43,6 @@ gulp.task("css", function () {
     .pipe(rename("style.min.css"))
     .pipe(sourcemap.write("."))
     .pipe(gulp.dest("build/css"))
-    
 });
 
 gulp.task("images", function () {
@@ -83,7 +100,8 @@ gulp.task("server", function () {
 gulp.task("build", gulp.series(
   "clean",
   "copy",
-  "css"
+  "css",
+  // "babel"
 ));
 
 gulp.task("start", gulp.series("build", "server"));
