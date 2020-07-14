@@ -12,15 +12,15 @@
 
 .new-collection__bg {
   &--first {
-    background-image: url(/img/content/mobile/header-image-bg-1.png);
+    background-image: url(/img/bg/mobile/header-image-bg-1.jpg);
   }
   
   &--second {
-    background-image: url(/img/content/mobile/header-image-bg-2.png);
+    background-image: url(/img/bg/mobile/header-image-bg-2.jpg);
   }
 
   &--third {
-    background-image: url(/img/content/mobile/header-image-bg-3.png);
+    background-image: url(/img/bg/mobile/header-image-bg-3.jpg);
   }
 }
 
@@ -106,15 +106,15 @@
 
   .new-collection__bg {
     &--first {
-      background-image: url(/img/content/tablet/header-image-bg-1.jpg);
+      background-image: url(/img/bg/tablet/header-image-bg-1.jpg);
     }
     
     &--second {
-      background-image: url(/img/content/tablet/header-image-bg-2.jpg);
+      background-image: url(/img/bg/tablet/header-image-bg-2.jpg);
     }
   
     &--third {
-      background-image: url(/img/content/tablet/header-image-bg-3.jpg);
+      background-image: url(/img/bg/tablet/header-image-bg-3.jpg);
     }
   }
 
@@ -170,7 +170,7 @@
   }
 
   .new-collection__price {
-    margin-top: 6px;
+    margin-top: 4px;
     padding-left: 185px;
     font-size: 16px;
     font-weight: 600;
@@ -231,7 +231,7 @@
   }
 
   .new-collection__slider-controls {
-    margin-right: 48px;
+    margin-right: 47px;
     display: flex;
     align-items: baseline;
   }
@@ -250,7 +250,7 @@
   }
 
   .new-collection__slider-control-back {
-    margin-right: 9px;
+    margin-right: 8px;
     transform: rotate(45deg);
   }
 
@@ -303,15 +303,15 @@
 
   .new-collection__bg {
     &--first {
-      background-image: url(/img/content/desktop/header-image-bg-1.jpg);
+      background-image: url(/img/bg/desktop/header-image-bg-1.jpg);
     }
     
     &--second {
-      background-image: url(/img/content/desktop/header-image-bg-2.jpg);
+      background-image: url(/img/bg/desktop/header-image-bg-2.jpg);
     }
   
     &--third {
-      background-image: url(/img/content/desktop/header-image-bg-3.jpg);
+      background-image: url(/img/bg/desktop/header-image-bg-3.jpg);
     }
   }
 
@@ -355,7 +355,7 @@
   }
 
   .new-collection__price {
-    margin-top: 6px;
+    margin-top: 4px;
     font-weight: 700;
 
     &::before {

@@ -25,7 +25,7 @@ if (document.querySelector('.blog')) {
 
   defineInformationBlockWidth();
 
-  window.addEventListener('resize', defineInformationBlockWidth);
+  window.onresize = defineInformationBlockWidth;
 
   blogLinks.forEach(item => {
     item.onclick = (e) => {e.preventDefault()};

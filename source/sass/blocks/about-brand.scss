@@ -12,20 +12,21 @@
 }
 
 .about-brand__wrapper {
-  margin-top: 41px;
+  margin-top: 42px;
   min-height: 458px;
   font-size: 16px;
   line-height: 1.2;
   color: $black2;
-  background: url(/img/content/mobile/brand-image.jpg) no-repeat center;
+  background: url(/img/bg/mobile/brand-image.jpg) no-repeat center;
 }
 
 .about-brand__container {
-  padding: 22px 16px 20px 14px;
   text-align: center;
   background-color: $grey-transparent;
 
   &--first {
+    padding: 23px 14px 20px 14px;
+
     .about-brand__text {
       &:nth-child(2) {
         margin-top: 22px;
@@ -34,7 +35,7 @@
   }
 
   &--second {
-    padding: 0px 16px 53px 14px;
+    padding: 0 14px 51px 14px;
   }
 }
 
@@ -57,7 +58,7 @@
     flex-direction: column;
     justify-content: space-between;
     font-weight: 500;
-    background: url(/img/content/tablet/brand-image-1.jpg) no-repeat left top, url(/img/content/tablet/brand-image-2.jpg) no-repeat right bottom;
+    background: url(/img/bg/tablet/brand-image-1.jpg) no-repeat left top, url(/img/bg/tablet/brand-image-2.jpg) no-repeat right bottom;
   }
 
   .about-brand__container {
@@ -104,7 +105,7 @@
     margin-top: 105px;
     height: 1112px;
     font-size: 20px;
-    background: url(/img/content/desktop/brand-image-1.jpg) no-repeat top left, url(/img/content/desktop/brand-image-2.jpg) no-repeat bottom right;
+    background: url(/img/bg/desktop/brand-image-1.jpg) no-repeat top left, url(/img/bg/desktop/brand-image-2.jpg) no-repeat bottom right;
   }
 
   .about-brand__container {
