@@ -8,7 +8,7 @@
   top: 0;
   left: 0;
   z-index: 5;
-  background: no-repeat url(/img/content/mobile/menu-bg.jpg) top/cover;
+  background: no-repeat url(/img/bg/mobile/menu-bg.jpg) top/cover;
   box-sizing: border-box;
 }
 
@@ -96,7 +96,7 @@
     height: 823px;
     left: 0;
     width: 100%;
-    background: no-repeat url(/img/content/tablet/menu-bg.jpg) top/cover;
+    background: no-repeat url(/img/bg/tablet/menu-bg.jpg) top/cover;
   }
 
   .catalog__header {
@@ -259,7 +259,7 @@
 
 @media (min-width: 856px) {
   .catalog {
-    background: no-repeat url(/img/content/desktop/menu-bg.jpg) top/cover;
+    background: no-repeat url(/img/bg/desktop/menu-bg.jpg) top/cover;
   }
 }
 
