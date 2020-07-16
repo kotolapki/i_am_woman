@@ -38,7 +38,7 @@
   z-index: -1;
   top: 1px;
   left: 0;
-  background: url(img/icons/search-icon.png);
+  background: url("../img/icons/search-icon.png");
 }
 
 .navigation__search-input {
@@ -66,14 +66,14 @@
   width: 14px;
   height: 16px;
   display: block;
-  background: url(img/icons/user-icon.png);
+  background: url("../img/icons/user-icon.png");
 }
 
 .navigation__basket-link {
   width: 15px;
   height: 16px;
   display: block;
-  background: url(img/icons/shopping-bag.png);
+  background: url("../img/icons/shopping-bag.png");
 }
 
 .open-catalog-btn-clicked {
@@ -327,7 +327,7 @@
     width: 20px;
     height: 20px;
     top: 0px;
-    background: url(img/icons/search-icon-desktop.png);
+    background: url("../img/icons/search-icon-desktop.png");
   }
 
   .navigation__search-input {
@@ -345,13 +345,13 @@
   .navigation__user-link {
     width: 17px;
     height: 20px;
-    background: url(img/icons/user-icon-desktop.png);
+    background: url("../img/icons/user-icon-desktop.png");
   }
 
   .navigation__basket-link {
     width: 17px;
     height: 20px;
-    background: url(img/icons/shopping-bag-desktop.png);
+    background: url("../img/icons/shopping-bag-desktop.png");
   }
 
   .navigation__sale-panel {
