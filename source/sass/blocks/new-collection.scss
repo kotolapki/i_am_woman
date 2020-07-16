@@ -12,15 +12,15 @@
 
 .new-collection__bg {
   &--first {
-    background-image: url(img/bg/mobile/header-image-bg-1.jpg);
+    background-image: url("../img/bg/mobile/header-image-bg-1.jpg");
   }
   
   &--second {
-    background-image: url(img/bg/mobile/header-image-bg-2.jpg);
+    background-image: url("../img/bg/mobile/header-image-bg-2.jpg");
   }
 
   &--third {
-    background-image: url(img/bg/mobile/header-image-bg-3.jpg);
+    background-image: url("../img/bg/mobile/header-image-bg-3.jpg");
   }
 }
 
@@ -106,15 +106,15 @@
 
   .new-collection__bg {
     &--first {
-      background-image: url(img/bg/tablet/header-image-bg-1.jpg);
+      background-image: url("../img/bg/tablet/header-image-bg-1.jpg");
     }
     
     &--second {
-      background-image: url(img/bg/tablet/header-image-bg-2.jpg);
+      background-image: url("../img/bg/tablet/header-image-bg-2.jpg");
     }
   
     &--third {
-      background-image: url(img/bg/tablet/header-image-bg-3.jpg);
+      background-image: url("../img/bg/tablet/header-image-bg-3.jpg");
     }
   }
 
@@ -303,15 +303,15 @@
 
   .new-collection__bg {
     &--first {
-      background-image: url(img/bg/desktop/header-image-bg-1.jpg);
+      background-image: url("../img/bg/desktop/header-image-bg-1.jpg");
     }
     
     &--second {
-      background-image: url(img/bg/desktop/header-image-bg-2.jpg);
+      background-image: url("../img/bg/desktop/header-image-bg-2.jpg");
     }
   
     &--third {
-      background-image: url(img/bg/desktop/header-image-bg-3.jpg);
+      background-image: url("../img/bg/desktop/header-image-bg-3.jpg");
     }
   }
 
